@@ -10,6 +10,19 @@
 
 > 文件名里的 `1.0.0` 是发布用的叫法，真正的 mod 版本看 jar 内 `fabric.mod.json` 的 `version`。
 
+## Release 附件（国内直连更快）
+
+[**v1.0.0**](https://github.com/FsangSSW/Minecraft-mods/releases/tag/v1.0.0) 的附件走 GitHub Release 通道
+（`objects.githubusercontent.com`，实测国内可直连，比仓库里点 jar 走 raw 域名稳）：
+
+| Release 附件名 | 大小 | 对应上面哪个文件 |
+|---|---|---|
+| `mcworld-audit-1.0.0.jar` | 157 KB | mcworld-audit-1.0.0.jar |
+| `1.0.0.jar` | 330 KB | 更完整的原版方块1.0.0.jar（内部 2.0.1，107 变体） |
+| `-1.0.0-.jar` | 515 KB | 更完整的原版方块-1.0.0-建筑方块扩展.jar（内部 2.1.0，171 变体） |
+
+> GitHub 上传附件时会把文件名里的中文剥掉，所以后两个名字看起来怪；按大小对应即可。
+
 ## 环境
 
 | 项目 | 版本 |
